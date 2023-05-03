@@ -1,12 +1,12 @@
 package main
 
-import (
-	"fmt"
+import "github.com/plordb/godesde0/files"
 
-	"github.com/plordb/godesde0/ejercicios"
-)
+// 02-16
 
 func main() {
 
-	fmt.Println(ejercicios.TablaMultiplicar())
+	//fmt.Println(ejercicios.TablaMultiplicar())
+
+	files.GrabaTabla()
 }
