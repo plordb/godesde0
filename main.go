@@ -10,6 +10,7 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 	//files.LeoArchivo()
+	//funciones.Calculos()
 
-	funciones.Calculos()
+	funciones.LlamarClosure()
 }
