@@ -8,5 +8,7 @@ func main() {
 
 	//fmt.Println(ejercicios.TablaMultiplicar())
 
-	files.GrabaTabla()
+	//files.GrabaTabla()
+
+	files.SumaTabla()
 }
