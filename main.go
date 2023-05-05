@@ -2,7 +2,7 @@ package main
 
 import "github.com/plordb/godesde0/funciones"
 
-// 02-19
+// 02-20
 
 func main() {
 
