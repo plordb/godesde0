@@ -5,6 +5,7 @@ import (
 )
 
 var tabla [10]int = [10]int{10, 0, 59}
+var matriz [20][30]int
 
 func MuestroArreglos() {
 	tabla[7] = 33
@@ -18,4 +19,8 @@ func MuestroArreglos() {
 	for i := 0; i < len(tabla); i++ {
 		fmt.Println(tabla[i])
 	}
+
+	matriz[0][2] = 15
+
+	fmt.Println(matriz)
 }
