@@ -14,5 +14,6 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
 
-	arreglosslices.MuestroSlice()
+	//arreglosslices.MuestroSlice()
+	arreglosslices.Capacidad()
 }
