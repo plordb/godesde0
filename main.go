@@ -14,5 +14,5 @@ func main() {
 	//funciones.LlamarClosure()
 	//funciones.Exponencia(2)
 
-	arreglosslices.MuestroArreglos()
+	arreglosslices.MuestroSlice()
 }
