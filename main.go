@@ -1,6 +1,8 @@
 package main
 
-import arreglosslices "github.com/plordb/godesde0/arreglos_slices"
+import (
+	"github.com/plordb/godesde0/mapas"
+)
 
 // 02-20
 
@@ -15,5 +17,7 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglosslices.MuestroSlice()
-	arreglosslices.Capacidad()
+	//arreglosslices.Capacidad()
+
+	mapas.MostrarMapas()
 }
