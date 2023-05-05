@@ -1,8 +1,8 @@
 package main
 
-import "github.com/plordb/godesde0/funciones"
+import arreglosslices "github.com/plordb/godesde0/arreglos_slices"
 
-// 02-19
+// 02-20
 
 func main() {
 
@@ -11,8 +11,8 @@ func main() {
 	//files.SumaTabla()
 	//files.LeoArchivo()
 	//funciones.Calculos()
-
 	//funciones.LlamarClosure()
+	//funciones.Exponencia(2)
 
-	funciones.Exponencia(2)
+	arreglosslices.MuestroArreglos()
 }
