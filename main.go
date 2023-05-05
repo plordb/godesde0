@@ -2,7 +2,7 @@ package main
 
 import "github.com/plordb/godesde0/funciones"
 
-// 02-18
+// 02-19
 
 func main() {
 
@@ -12,5 +12,7 @@ func main() {
 	//files.LeoArchivo()
 	//funciones.Calculos()
 
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+
+	funciones.Exponencia(2)
 }
