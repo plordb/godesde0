@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/plordb/godesde0/ejer_interfaces"
-	"github.com/plordb/godesde0/modelos"
+	d "github.com/plordb/godesde0/defer_panic"
 )
 
 // 02-23
@@ -22,9 +21,11 @@ func main() {
 	//mapas.MostrarMapas()
 	//users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
+	/*Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 
 	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)*/
+
+	d.VemosDefer()
 }
