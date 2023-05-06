@@ -1,8 +1,11 @@
 package main
 
-import "github.com/plordb/godesde0/users"
+import (
+	e "github.com/plordb/godesde0/ejer_interfaces"
+	"github.com/plordb/godesde0/modelos"
+)
 
-// 02-22
+// 02-23
 
 func main() {
 
@@ -16,8 +19,12 @@ func main() {
 
 	//arreglosslices.MuestroSlice()
 	//arreglosslices.Capacidad()
-
 	//mapas.MostrarMapas()
+	//users.AltaUsuario()
 
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
