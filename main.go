@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/plordb/godesde0/goroutines"
+	"github.com/plordb/godesde0/webserver"
 )
 
 // 02-26
@@ -32,12 +30,15 @@ func main() {
 	//d.VemosDefer()
 	//d.EjemploPanic()
 
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 	go goroutines.MiNombreLento("Pablo Lorenzo", canal1)
 
 	defer func() {
 		<-canal1
 	}()
 
-	fmt.Println("Estoy aqui")
+	fmt.Println("Estoy aqui")*/
+
+	webserver.MiWebServer()
+
 }
