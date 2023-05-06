@@ -27,5 +27,6 @@ func main() {
 	Maria := new(modelos.Mujer)
 	e.HumanosRespirando(Maria)*/
 
-	d.VemosDefer()
+	//d.VemosDefer()
+	d.EjemploPanic()
 }
