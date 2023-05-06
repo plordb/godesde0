@@ -1,10 +1,8 @@
 package main
 
-import (
-	"github.com/plordb/godesde0/mapas"
-)
+import "github.com/plordb/godesde0/users"
 
-// 02-21
+// 02-22
 
 func main() {
 
@@ -19,5 +17,7 @@ func main() {
 	//arreglosslices.MuestroSlice()
 	//arreglosslices.Capacidad()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }
