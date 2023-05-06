@@ -22,7 +22,7 @@ func MiMiddleware() {
 	result := operacionesMidd(sumar)(2, 4)
 	fmt.Println(result)
 
-	result = operacionesMidd(restar)(2, 4)
+	result = operacionesMidd(restar)(10, 6)
 	fmt.Println(result)
 
 	result = operacionesMidd(multiplicar)(2, 4)
