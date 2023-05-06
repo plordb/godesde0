@@ -1,6 +1,10 @@
 package main
 
-import "github.com/plordb/godesde0/goroutines"
+import (
+	"fmt"
+
+	"github.com/plordb/godesde0/goroutines"
+)
 
 // 02-25
 
@@ -28,5 +32,9 @@ func main() {
 	//d.VemosDefer()
 	//d.EjemploPanic()
 
-	goroutines.MiNombreLento("Pablo Lorenzo")
+	go goroutines.MiNombreLento("Pablo Lorenzo")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
