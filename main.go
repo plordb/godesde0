@@ -4,7 +4,7 @@ import (
 	d "github.com/plordb/godesde0/defer_panic"
 )
 
-// 02-23
+// 02-24
 
 func main() {
 
