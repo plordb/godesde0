@@ -1,10 +1,8 @@
 package main
 
-import (
-	d "github.com/plordb/godesde0/defer_panic"
-)
+import "github.com/plordb/godesde0/goroutines"
 
-// 02-24
+// 02-25
 
 func main() {
 
@@ -28,5 +26,7 @@ func main() {
 	e.HumanosRespirando(Maria)*/
 
 	//d.VemosDefer()
-	d.EjemploPanic()
+	//d.EjemploPanic()
+
+	goroutines.MiNombreLento("Pablo Lorenzo")
 }
